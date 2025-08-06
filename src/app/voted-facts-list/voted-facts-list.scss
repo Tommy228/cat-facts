@@ -1,0 +1,19 @@
+.voted-list-card {
+  padding: 16px;
+}
+
+.empty-state {
+  color: gray;
+  font-style: italic;
+  margin-top: 12px;
+}
+
+.fact {
+  &--upvoted {
+    background-color: #dbffde;
+  }
+
+  &--downvoted {
+    background-color: #ffe1e4;
+  }
+}
