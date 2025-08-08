@@ -13,7 +13,7 @@ Your task is to **add the logic**.
    - Display the fetched fact in the top card.
 
 2. **Upvote / Downvote**
-   - When the user clicks 👍 or 👎, store the fact.
+   - When the user clicks 👍 or 👎, add the fact to the list below
    - Show all voted facts in the list below.
 
 ## API Reference
@@ -36,7 +36,7 @@ GET https://catfact.ninja/fact
  
 ## What you need to do
 
-* Implement the service to fetch a random fact
+* Implement the call to the API to fetch and display facts
 * Wire up the "Fetch New Fact" button
 * Wire up the 👍 / 👎 buttons to update the voted facts list
 * Display the updated voted facts list in the UI  
